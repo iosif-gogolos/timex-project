@@ -1,0 +1,42 @@
+# Python-Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtuelle Umgebung
+venv/
+env/
+.env
+.venv
+
+# Django-spezifisch
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# IDE-Dateien
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+# Umgebungsvariablen
+.env
+*.env
+
+# Statische und Media-Dateien
+/static/
+/media/
+
+# Installierte Pakete
+*.egg-info/
+dist/
+build/
+
+# Sicherheitskopien
+*.bak
